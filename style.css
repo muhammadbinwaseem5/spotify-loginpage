@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+    font-family: 'Google Sans', Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    max-width: 250px;
+    padding: 40px;
+    background-color: #121212;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+h1{
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    word-spacing: 0.2px;
+    font-weight: bolder;
+}
+
+label{
+    font-weight: 1000;
+    font-size: x-small;
+}
+
+input{
+    background-color: #121212;
+    border-radius: 2%;
+    width: 100%;
+    border: 1px solid #727272;
+    color: #ffffff;
+    height: 35px;
+    width: 250px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+input:focus{
+    border-color: #ffffff;
+    outline: none;
+}
+
+.continuebtn{
+    width: 100%;
+    background-color: #1ed760;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    height: 6vh;
+    border-radius: 70px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.googlebtn{
+    width: 150%;
+    background-color: #121212;
+    color: #f6f6f6;
+    height: 6vh;
+    border-radius: 70px;
+    margin-top: 13px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #727272;
+}
+
+.facebookbtn{
+    width: 150%;
+    background-color: #121212;
+    color: #f6f6f6;
+    height: 6vh;
+    border-radius: 70px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #727272;
+}
+
+.applebtn{
+    width: 150%;
+    background-color: #121212;
+    color: #f6f6f6;
+    height: 6vh;
+    border-radius: 70px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #727272;
+}
+
+.signup{
+    color: #8a8a8a;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.signupbtn{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: small;
+}
+
+.googlebtn, .facebookbtn, .applebtn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.googlebtn i, .facebookbtn i, .applebtn i {
+    position: absolute;
+    left: 20px;
+}
+.continuebtn:hover{
+    transform: scale(1.05);
+    border-color:  #00ff73;
+}
+
+.googlebtn:hover{
+    transform: scale(1.05);
+    border-color: #ffffff;
+}
+
+.facebookbtn:hover{
+    transform: scale(1.05);
+    border-color: #ffffff;
+}
+
+.applebtn:hover{
+    transform: scale(1.05);
+    border-color: #ffffff;
+}
